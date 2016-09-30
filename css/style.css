@@ -1,0 +1,153 @@
+body {
+  background-color: #BD4126;
+}
+
+#floor {
+  background-image: url("http://www.psdgraphics.com/file/cherry-wood.jpg");
+  transform: perspective(50em) rotateX(15deg);
+  overflow: hidden;
+  padding: 50px;
+  min-height: 850px;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 3px 3px 3px #A63821;
+}
+
+h1 {
+    text-align: center;
+    padding: 100px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-shadow: -1px -1px 2px #777;
+
+}
+#centralBloc {
+  width: 340px;
+  height: 380px;
+  border: 1px solid #221F1E  ;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 3px 3px 3px #221F1E    ;
+  background: #463936    ;
+
+}
+
+#screen {
+  width: 295px;
+  font-family: 'VT323', monospace;
+  font-size: 30px;
+  color: #FE0000;
+  text-align: right;
+  border-style: solid;
+  border-color: #828282;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: #350000;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding-right: 10px;
+}
+
+.buttonNumber {
+position: relative;
+  top: 10px;
+  left: 23px;
+	padding: 5px 29px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+	border-radius: 10px;
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 20px;
+	color: #000;
+	text-decoration: none;	
+  background: #CACACA  ;
+  }
+
+.buttonNumber:focus {
+    outline: none;
+}
+
+.buttonOperation {
+position: relative;
+  top: 10px;
+  left: 23px;
+	padding: 5px 15px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+	border-radius: 10px;
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 20px;
+	color: #000;
+	text-decoration: none;	
+  background: #CACACA  ;
+}
+
+.buttonOperation:focus {
+    outline: none;
+}
+
+#buttonPoint {
+position: relative;
+  top: 10px;
+  left: 23px;
+	padding: 5px 29px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+	border-radius: 10px;
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 20px;
+	color: #000;
+	text-decoration: none;	
+  background: #CACACA  ;
+}
+
+#buttonPoint:focus {
+    outline: none;
+}
+
+#buttonTotal {
+position: relative;
+  top: -42px;
+  left: 23px;
+	padding: 5px 112px 8px 112px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+	border-radius: 10px;
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 20px;
+	color: #000;
+	text-decoration: none;
+  background-color: red;
+}
+
+#buttonTotal:focus {
+    outline: none;
+}
+
+#buttonC {
+position: relative;
+  top: 10px;
+  left: 23px;
+	padding: 5px 29px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+	border-radius: 10px;
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 20px;
+	color: #000;
+	text-decoration: none;	
+  background: #CACACA  ;
+}
+
+#buttonC:focus {
+    outline: none;
+}
+
+#buttonAnd {
+  padding: 31px 15px 31px;
+  margin: 0px 10px 10px 0px;
+}
+
